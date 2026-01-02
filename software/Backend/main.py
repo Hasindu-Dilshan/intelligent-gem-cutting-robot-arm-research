@@ -1,41 +1,35 @@
 from fastapi import FastAPI, UploadFile, File
-from typing import List
 import cv2
 import numpy as np
 
 from defect_detection import detect_defects
+from weight_calculation import calculate_weight
+from value_estimation import estimate_value
 
-app = FastAPI(
-    title="Gem Defect Detection API",
-    description="Detect gemstone surface defects using multiple images",
-    version="1.0"
-)
+app = FastAPI()
 
-@app.post("/detect-defects/")
-async def detect_gem_defects(files: List[UploadFile] = File(...)):
-    """
-    Accept multiple gemstone images (top, side, bottom views)
-    and return combined defect percentage.
-    """
+@app.post("/analyze-gem/")
+async def analyze_gem(
+    gem_type: str,
+    images: list[UploadFile] = File(...)
+):
+    image_list = []
 
-    defect_scores = []
+    for file in images:
+        contents = await file.read()
+        np_img = np.frombuffer(contents, np.uint8)
+        image = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+        image_list.append(image)
 
-    for file in files:
-        image_bytes = await file.read()
-        image_array = np.frombuffer(image_bytes, np.uint8)
-        image = cv2.imdecode(image_array, cv2.IMREAD_COLOR)
+    defect_percentages = [detect_defects(img) for img in image_list]
+    avg_defect = round(sum(defect_percentages) / len(defect_percentages), 2)
 
-        if image is None:
-            return {"error": f"Invalid image file: {file.filename}"}
-
-        score = detect_defects(image)
-        defect_scores.append(score)
-
-    final_defect = round(sum(defect_scores) / len(defect_scores), 2)
+    weight = calculate_weight(image_list, gem_type)
+    value = estimate_value(gem_type, weight, avg_defect)
 
     return {
-        "images_received": len(files),
-        "individual_defect_percentages": defect_scores,
-        "final_defect_percentage": final_defect,
-        "gem_quality": "GOOD" if final_defect < 5 else "DEFECTED"
+        "gem_type": gem_type,
+        "defect_percentage": avg_defect,
+        "weight_carats": weight,
+        "estimated_value_usd": value
     }
