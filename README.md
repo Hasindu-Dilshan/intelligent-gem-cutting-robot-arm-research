@@ -30,20 +30,31 @@ This component focuses on controlling the robotic arm for gemstone cutting. The 
 Hardware Components:
 
 6× MG996R Servo Motors
+
 ESP 32 S3 board
+
 Raspberry Pi 4 (4GB)
+
 5V 20A Power Supply
+
 5V 3A Power Supply
+
 Breadboard
+
 PCA 9685 servo controller board
+
 Type-C or Micro USB data cable
+
 Female-to-female jumper cables
+
 6-DOF Robot Arm DIY Kit
 
 Software & Simulation:
 
 Ubuntu 24.04
+
 ROS 2 Jazzy with Gazebo Harmonic for simulation
+
 Web app configuration to bridge hardware and simulation via ROS 2 bridge
 
 Function:
@@ -59,5 +70,6 @@ The robotic arm performs precise physical movements for cutting operations. The 
    The robotic arm executes the cutting process according to pre-calculated angles and paths, producing a polished gem ready for further refinement or sale.
 
 ---
+
 
 
