@@ -98,7 +98,7 @@ Add this into your `README.md` at the **Section 3: Gem Evaluation & Cut Planning
 
 ---
 
-### 3️⃣ Gem Evaluation & Cut Planning
+### 3️⃣ Gem Evaluation
 
 #### **3.1 Overview**
 
@@ -151,10 +151,6 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 
 ---
 
-### 4️⃣ Cut Execution
-The robotic arm executes the cutting process according to pre-calculated angles and paths, producing a polished gem ready for further refinement or sale.
-
----
 
 <div align="center">
 
@@ -162,6 +158,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
