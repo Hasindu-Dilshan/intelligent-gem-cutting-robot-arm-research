@@ -92,8 +92,98 @@ A synthetically generated tabular dataset with **5,000+ records** based on scien
 
 ---
 
+To keep this consistent with your professional GitHub README, I have used **GitHub-style alert blocks**, **bold data points**, and **technical tables**. I have organized your new content for **Section 3** to be as long and detailed as the previous sections while maintaining your exact wording and technical flow.
+
+Add this into your `README.md` at the **Section 3: Gem Evaluation & Cut Planning** area:
+
+---
+
 ### 3️⃣ Gem Evaluation & Cut Planning
-The system analyzes the gem’s features and determines the optimal cutting method using AI-based or rule-driven logic to maximize gem value and minimize material loss.
+
+#### **3.1 Overview**
+
+The function operates as an extension of the gem identification module, where the identified gem type, gem color, and captured gemstone images are provided as input data. The system analyzes the gem’s features and determines the optimal cutting method using AI-based or rule-driven logic to maximize gem value and minimize material loss.
+
+#### **3.2 Image Preprocessing & Defect Detection**
+
+Captured images are preprocessed to improve quality. Techniques such as noise removal, contrast enhancement, and segmentation are applied.
+
+* **Process Flow:**
+* Image quality is enhanced.
+* Defective regions are identified using a supervised multi-class defect detection model.
+* A visual defect map is generated and visualized.
+
+
+* **Technical Detail:** The model is trained to identify five different types of gemstone defects using approximately **10,000 labeled images per defect category**.
+* **Tools & Technologies:** `OpenCV`, `NumPy`, `TensorFlow / PyTorch`, `Python`.
+
+#### **3.3 Weight Measurement**
+
+The physical weight of the gemstone is measured using hardware sensors to ensure precise value estimation.
+
+* **Mechanism:** Load cell sensor connected to an **HX711 module**.
+* **Process Flow:**
+* Gem is placed on the load cell.
+* Sensor readings are captured and processed.
+* Weight is digitally recorded for the integrated feature set.
+
+
+* **Hardware:** Load Cell, HX711.
+
+#### **3.4 Gem Value Estimation**
+
+The system estimates the gemstone value by combining detected defects, measured weight, gem type, and reference market price data.
+
+| Input Feature | Source |
+| --- | --- |
+| **Defect Map** | Multi-class Detection Model (PyTorch) |
+| **Physical Weight** | Load Cell + HX711 Module |
+| **Gem Type/Color** | Identification Module |
+| **Market Reference** | Pricing Data Model |
+
+**Final Output:** The system provides a fully automated and data-driven solution including a **visual defect map**, **accurate gemstone weight**, and an **estimated gemstone value**.
+
+---
+
+### 4️⃣ Cut Execution
+
+The robotic arm executes the cutting process according to pre-calculated angles and paths, producing a polished gem ready for further refinement or sale.
+
+---
+
+### 🚀 Technical Summary
+
+<table align="center">
+<tr>
+<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=py](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpy)" width="48" height="48" />
+
+
+
+Python</td>
+<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=pytorch](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpytorch)" width="48" height="48" />
+
+
+
+PyTorch</td>
+<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=tensorflow](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dtensorflow)" width="48" height="48" />
+
+
+
+TensorFlow</td>
+<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=opencv](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dopencv)" width="48" height="48" />
+
+
+
+OpenCV</td>
+<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=raspberrypi](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Draspberrypi)" width="48" height="48" />
+
+
+
+Hardware</td>
+</tr>
+</table>
+
+**Would you like me to help you draft the "Installation" steps for the Python/OpenCV environment next?**
 
 ---
 
@@ -108,6 +198,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu" />
 
 </div>
+
 
 
 
