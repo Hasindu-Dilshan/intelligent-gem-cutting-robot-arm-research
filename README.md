@@ -104,6 +104,9 @@ Add this into your `README.md` at the **Section 3: Gem Evaluation & Cut Planning
 
 The function operates as an extension of the gem identification module, where the identified gem type, gem color, and captured gemstone images are provided as input data. The system analyzes the gem’s features and determines the optimal cutting method using AI-based or rule-driven logic to maximize gem value and minimize material loss.
 
+> [!NOTE]
+> This component is developed for academic and research purposes to demonstrate data-driven modeling. Evaluation focuses on conceptual methodology and implementation rather than industrial-grade certification.
+
 #### **3.2 Image Preprocessing & Defect Detection**
 
 Captured images are preprocessed to improve quality. Techniques such as noise removal, contrast enhancement, and segmentation are applied.
@@ -158,6 +161,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
