@@ -173,7 +173,7 @@ Derived Parameters:
 
 These features are used to recommend the most suitable cut type and suggest initial cutting parameters.
 
-#### **4.3 Cut Recommendation Models **
+#### **4.3 Cut Recommendation Models**
 
 The cut recommendation process is divided into two stages, supported by derived parameters from gemstone dimensions and properties:
 
@@ -217,6 +217,7 @@ The system provides a data-driven cut recommendation including a suitable cut fa
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
