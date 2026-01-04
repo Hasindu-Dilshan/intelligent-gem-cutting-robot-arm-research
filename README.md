@@ -1,7 +1,9 @@
 <div align="center">
 
 # 💎 Intelligent Gem Cutting Robotic Arm
-**BSc (Hons) in Information Technology – Final Year Research Project** *Sri Lanka Institute of Information Technology (SLIIT)* *Research Group: Autonomous Intelligent Machines and Systems – RP-25J-231*
+**BSc (Hons) in Information Technology – Final Year Research Project** *Sri Lanka Institute of Information Technology (SLIIT)* 
+
+*Autonomous Intelligent Machines and Systems – RP-25J-231*
 
 ---
 
@@ -105,6 +107,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu" />
 
 </div>
+
 
 
 
