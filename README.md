@@ -75,7 +75,7 @@ This component implements a machine learning–based gemstone identification and
 > This is developed for academic purposes to demonstrate data-driven modeling. Evaluation focuses on methodology, not industrial-grade certification accuracy.
 
 #### **2.2 Dataset Description**
-A synthetically generated tabular dataset with **5,000+ records** based on scientifically valid gemological ranges:
+A synthetically generated tabular dataset with **3,000+ records** based on scientifically valid gemological ranges:
 * **Refractive Index (RI), Specific Gravity (SG), Hardness (Mohs scale)**
 * *Includes 21 Sri Lankan gemstone types (natural, synthetic, and imitation).*
 
@@ -161,6 +161,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
