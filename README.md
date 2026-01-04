@@ -37,8 +37,9 @@ The system performs four key functions:
 #### **Overview**
 This component focuses on controlling the robotic arm for gemstone cutting. The system combines hardware assembly, ROS 2 simulation, and web-based configuration to enable precise and programmable arm movements.
 
-> [!IMPORTANT]
-> **Note:** The hardware used in this project is designed for academic purposes. It is a prototype setup and not intended for production-level deployment. The focus is on experimentation, learning, and demonstrating robotic arm control principles.
+
+> [!NOTE]
+> The hardware used in this project is designed for academic purposes. It is a prototype setup and not intended for production-level deployment. The focus is on experimentation, learning, and demonstrating robotic arm control principles.
 
 #### **1.1 Hardware Components**
 | Category | Item | Specification |
@@ -107,6 +108,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu" />
 
 </div>
+
 
 
 
