@@ -148,7 +148,7 @@ The system estimates the gemstone value by combining detected defects, measured 
 
 ---
 
-### 4️⃣ Cut Execution
+### 4️⃣ Cut Type Recommendation
 
 The robotic arm executes the cutting process according to pre-calculated angles and paths, producing a polished gem ready for further refinement or sale.
 
@@ -161,6 +161,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
