@@ -5,9 +5,10 @@
 
 ---
 
-[![Research](https://img.shields.io/badge/Research-SLIIT-blue?style=for-the-badge)](https://www.sliit.lk/)
-[![Field](https://img.shields.io/badge/Field-Robotics_%26_AI-orange?style=for-the-badge)](#)
-[![Status](https://img.shields.io/badge/Status-Research_Prototype-green?style=for-the-badge)](#)
+[![Robotics](https://img.shields.io/badge/Research-SLIIT-blue?style=for-the-badge)](https://www.sliit.lk/)
+[![Embedded Systems](https://img.shields.io/badge/Field-Robotics_%26_AI-orange?style=for-the-badge)](#)
+[![Machine learning](https://img.shields.io/badge/Status-Research_Prototype-green?style=for-the-badge)](#)
+[![3D Modelling](https://img.shields.io/badge/Research-SLIIT-blue?style=for-the-badge)](https://www.sliit.lk/)
 
 </div>
 
@@ -72,9 +73,7 @@ This component implements a machine learning–based gemstone identification and
 
 #### **2.2 Dataset Description**
 A synthetically generated tabular dataset with **5,000+ records** based on scientifically valid gemological ranges:
-* **Refractive Index (RI)**
-* **Specific Gravity (SG)**
-* **Hardness (Mohs scale)**
+* **Refractive Index (RI), Specific Gravity (SG), Hardness (Mohs scale)**
 * *Includes 21 Sri Lankan gemstone types (natural, synthetic, and imitation).*
 
 #### **2.3 Model & Tools**
@@ -103,6 +102,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <div align="center">
 
 ### 🛠️ Technical Stack
-<img src="https://skillicons.dev/icons?i=python,ros,raspberrypi,linux,cpp,ubuntu" />
+<img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu" />
 
 </div>
+
