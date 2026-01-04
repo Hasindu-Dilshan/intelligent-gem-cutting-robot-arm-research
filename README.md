@@ -74,15 +74,17 @@ The robotic arm performs precise physical movements for cutting operations. The 
 
 ### 2️⃣ Gem Identification
 #### **2.1 Overview**
-This component implements a machine learning–based gemstone identification and authenticity classification system tailored for Sri Lankan gemstones. It functions as a decision-support and pre-screening tool using measurable physical properties.
+This component implements a machine learning–based gemstone identification and authenticity classification system tailored for Sri Lankan gemstones. This component implements a data-driven gemstone identification and authenticity assessment system designed with a focus on Sri Lankan gemstones. It serves as a decision-support and pre-screening module, assisting users in distinguishing natural, synthetic, imitation, and treated stones using measurable gemological properties.
+
+The system combines visual information and key physical parameters to reduce reliance on subjective manual inspection and improve consistency in preliminary gem evaluation.
 
 > [!NOTE]
 > This is developed for academic purposes to demonstrate data-driven modeling. Evaluation focuses on methodology, not industrial-grade certification accuracy.
 
 #### **2.2 Dataset Description**
-A synthetically generated tabular dataset with **3,000+ records** based on scientifically valid gemological ranges:
-* **Refractive Index (RI), Specific Gravity (SG), Hardness (Mohs scale)**
-* *Includes 21 Sri Lankan gemstone types (natural, synthetic, and imitation).*
+The model is trained using a synthetically generated dataset containing **3,000+ **records, constructed according to standard gemological reference ranges. The dataset represents realistic variations observed in Sri Lankan gem materials.:
+* **Images,Refractive Index (RI), Specific Gravity (SG), Hardness (Mohs scale)**
+* *Includes 34 Sri Lankan gemstone types (natural, Synthetic and treated stones, imitation and non-gem but valuable).*
 
 #### **2.3 Model & Tools**
 * **Approach:** Two-stage classification (Type identification + Authenticity classification).
@@ -160,6 +162,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
