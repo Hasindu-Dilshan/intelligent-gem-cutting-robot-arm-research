@@ -61,9 +61,9 @@ This component focuses on controlling the robotic arm for gemstone cutting. The 
 The robotic arm performs precise physical movements for cutting operations. The system allows simulation and real-time control of the arm, translating commands from the web app into servo motor actions.
 
 #### **1.4 Future Works**
-* **1.4.1 Adaptive Cutting with AI Feedback:** Equip sensors (force, vibration, optical) to adjust cutting paths in real-time. Implement reinforcement learning for optimal strategies.
-* **1.4.2 Multi-Arm Systems:** Expand to multi-arm setups for faster manufacturing and collaborative jewelry production.
-* **1.4.3 Cloud Operation:** Develop a web dashboard for remote control, analytics, performance logs, and predictive maintenance.
+* Adaptive Cutting with AI Feedback:** Equip sensors (force, vibration, optical) to adjust cutting paths in real-time. Implement reinforcement learning for optimal strategies.
+* Multi-Arm Systems:** Expand to multi-arm setups for faster manufacturing and collaborative jewelry production.
+* Cloud Operation:** Develop a web dashboard for remote control, analytics, performance logs, and predictive maintenance.
 
 ---
 
@@ -89,12 +89,6 @@ A synthetically generated tabular dataset with **3,000+ records** based on scien
 * Incorporate real laboratory gemological data.
 * Add hierarchical classification and additional physical/optical features.
 * Combine tabular data with image-based or spectral features.
-
----
-
-To keep this consistent with your professional GitHub README, I have used **GitHub-style alert blocks**, **bold data points**, and **technical tables**. I have organized your new content for **Section 3** to be as long and detailed as the previous sections while maintaining your exact wording and technical flow.
-
-Add this into your `README.md` at the **Section 3: Gem Evaluation & Cut Planning** area:
 
 ---
 
@@ -161,6 +155,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
