@@ -167,16 +167,18 @@ From Gem Evaluation: Carat Weight , Length (mm), Width (mm), Height (mm)
 
 Derived Parameters:
 
-Aspect Ratio – calculated as Length divided by Width, used to analyze shape suitability.
+*Aspect Ratio – calculated as Length divided by Width, used to analyze shape suitability.
 
-Depth Ratio – calculated as Height divided by Width, used to differentiate cut families.
+*Depth Ratio – calculated as Height divided by Width, used to differentiate cut families.
 
 These features are used to recommend the most suitable cut type and suggest initial cutting parameters.
 
 #### **4.3 Cut Recommendation Models **
+
 The cut recommendation process is divided into two stages, supported by derived parameters from gemstone dimensions and properties:
 
 **Stage 1: Exact Cut Family Classification**
+
 Determines the broad category of cut based on gemstone properties and derived features such as aspect ratio, depth ratio, and estimated volume.
 
 Supported Cut Families: Brilliant, Step, Mixed, Cabochon
@@ -196,6 +198,7 @@ Model: XGBoost Classifier
 Purpose: Provides logical consistency with cut family and improves exact cut prediction accuracy.
 
 **Cut Parameter Prediction**
+
 Once the exact cut type is selected, the system predicts cut-specific geometric parameters to guide cutting operations:
 
 Table Percentage,Crown Angle,Pavilion Angle,Total Depth Percentage
@@ -214,6 +217,7 @@ The system provides a data-driven cut recommendation including a suitable cut fa
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
