@@ -5,10 +5,10 @@
 
 ---
 
-[![Robotics](https://img.shields.io/badge/Field-Robotics-blue?style=for-the-badge)](https://www.sliit.lk/)
-[![Embedded Systems](https://img.shields.io/badge/Field-Embedded%20Systems-orange?style=for-the-badge)](https://www.sliit.lk/)
-[![Machine Learning](https://img.shields.io/badge/Field-Machine%20Learning-green?style=for-the-badge)](https://www.sliit.lk/)
-[![3D Modelling](https://img.shields.io/badge/Research-3D%20Modelling-blue?style=for-the-badge)](https://www.sliit.lk/)
+[![Robotics](https://img.shields.io/badge/Robotics-blue?style=for-the-badge)](https://www.sliit.lk/)
+[![Embedded Systems](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge)](https://www.sliit.lk/)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-green?style=for-the-badge)](https://www.sliit.lk/)
+[![3D Modelling](https://img.shields.io/badge/3D%20Modelling-blue?style=for-the-badge)](https://www.sliit.lk/)
 
 </div>
 
@@ -105,5 +105,6 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu" />
 
 </div>
+
 
 
