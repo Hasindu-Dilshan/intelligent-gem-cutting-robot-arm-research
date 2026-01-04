@@ -204,6 +204,7 @@ Separate regression models are trained for each cut family to improve parameter 
 
 Final Output:
 The system provides a data-driven cut recommendation including a suitable cut family, exact cut type selection, and adjusted geometric cut parameters to support efficient gemstone cutting.
+
 ---
 
 
@@ -213,6 +214,7 @@ The system provides a data-driven cut recommendation including a suitable cut fa
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
