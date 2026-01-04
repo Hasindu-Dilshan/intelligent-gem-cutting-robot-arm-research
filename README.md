@@ -82,7 +82,7 @@ The system combines visual information and key physical parameters to reduce rel
 > This is developed for academic purposes to demonstrate data-driven modeling. Evaluation focuses on methodology, not industrial-grade certification accuracy.
 
 #### **2.2 Dataset Description**
-The model is trained using a synthetically generated dataset containing **3,000+ **records, constructed according to standard gemological reference ranges. The dataset represents realistic variations observed in Sri Lankan gem materials.:
+The model is trained using a synthetically generated dataset containing 3,000+ records, constructed according to standard gemological reference ranges. The dataset represents realistic variations observed in Sri Lankan gem materials.:
 * **Images,Refractive Index (RI), Specific Gravity (SG), Hardness (Mohs scale)**
 * *Includes 34 Sri Lankan gemstone types (natural, Synthetic and treated stones, imitation and non-gem but valuable).*
 
@@ -162,6 +162,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
