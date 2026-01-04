@@ -159,9 +159,10 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <div align="center">
 
 ### 🛠️ Technical Stack
-<img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pyTorch,tensorFlow,openCv" />
+<img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
