@@ -151,42 +151,6 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 
 ---
 
-### 🚀 Technical Summary
-
-<table align="center">
-<tr>
-<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=py](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpy)" width="48" height="48" />
-
-
-
-Python</td>
-<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=pytorch](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpytorch)" width="48" height="48" />
-
-
-
-PyTorch</td>
-<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=tensorflow](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dtensorflow)" width="48" height="48" />
-
-
-
-TensorFlow</td>
-<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=opencv](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dopencv)" width="48" height="48" />
-
-
-
-OpenCV</td>
-<td align="center" width="96"><img src="[https://skillicons.dev/icons?i=raspberrypi](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Draspberrypi)" width="48" height="48" />
-
-
-
-Hardware</td>
-</tr>
-</table>
-
-**Would you like me to help you draft the "Installation" steps for the Python/OpenCV environment next?**
-
----
-
 ### 4️⃣ Cut Execution
 The robotic arm executes the cutting process according to pre-calculated angles and paths, producing a polished gem ready for further refinement or sale.
 
@@ -195,9 +159,10 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <div align="center">
 
 ### 🛠️ Technical Stack
-<img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu" />
+<img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pyTorch,tensorFlow,openCv" />
 
 </div>
+
 
 
 
