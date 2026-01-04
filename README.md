@@ -151,8 +151,59 @@ The system estimates the gemstone value by combining detected defects, measured 
 
 ### 4️⃣ Cut Type Recommendation
 
-The robotic arm executes the cutting process according to pre-calculated angles and paths, producing a polished gem ready for further refinement or sale.
+#### **4.1 Overview**
 
+This component recommends the most suitable gemstone cut type and predicts cutter-ready geometric parameters based on gemstone material properties and physical dimensions. The objective is to ensure cut feasibility while minimizing material wastage.
+
+> [!NOTE]
+>This component is developed for academic purposes to demonstrate data-driven cut planning. The emphasis is on methodological design rather than industrial-grade cutting optimization.
+
+#### **4.2 Input Feature Processing**
+
+The Cut Type Recommendation module receives structured inputs from previous modules:
+
+From Gem Identification: Gem Type, Refractive Index (RI)
+From Gem Evaluation: Carat Weight , Length (mm), Width (mm), Height (mm)
+
+Derived Parameters:
+
+Aspect Ratio – calculated as Length divided by Width, used to analyze shape suitability.
+
+Depth Ratio – calculated as Height divided by Width, used to differentiate cut families.
+
+These features are used to recommend the most suitable cut type and suggest initial cutting parameters.
+
+#### **4.3 Cut Recommendation Models **
+The cut recommendation process is divided into two stages, supported by derived parameters from gemstone dimensions and properties:
+
+Stage 1: Exact Cut Family Classification
+Determines the broad category of cut based on gemstone properties and derived features such as aspect ratio, depth ratio, and estimated volume.
+
+Supported Cut Families: Brilliant, Step, Mixed, Cabochon
+
+Model: CatBoost Classifier
+
+Purpose: Handles categorical gemstone types and non-linear relationships to select a suitable cut family.
+
+Stage 2: Cut Type Prediction
+
+Selects the precise cut within the identified family to ensure maximum yield and aesthetic quality.
+
+Examples:
+Brilliant: Round, Oval, Pear, Marquise
+Model: XGBoost Classifier
+
+Purpose: Provides logical consistency with cut family and improves exact cut prediction accuracy.
+
+Cut Parameter Prediction
+Once the exact cut type is selected, the system predicts cut-specific geometric parameters to guide cutting operations:
+
+Table Percentage,Crown Angle,Pavilion Angle,Total Depth Percentage
+
+Separate regression models are trained for each cut family to improve parameter accuracy and minimize gemstone material loss.
+
+Final Output:
+The system provides a data-driven cut recommendation including a suitable cut family, exact cut type selection, and adjusted geometric cut parameters to support efficient gemstone cutting.
 ---
 
 
@@ -162,6 +213,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
