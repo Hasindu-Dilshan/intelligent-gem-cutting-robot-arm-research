@@ -176,7 +176,7 @@ These features are used to recommend the most suitable cut type and suggest init
 #### **4.3 Cut Recommendation Models **
 The cut recommendation process is divided into two stages, supported by derived parameters from gemstone dimensions and properties:
 
-Stage 1: Exact Cut Family Classification
+**Stage 1: Exact Cut Family Classification**
 Determines the broad category of cut based on gemstone properties and derived features such as aspect ratio, depth ratio, and estimated volume.
 
 Supported Cut Families: Brilliant, Step, Mixed, Cabochon
@@ -185,7 +185,7 @@ Model: CatBoost Classifier
 
 Purpose: Handles categorical gemstone types and non-linear relationships to select a suitable cut family.
 
-Stage 2: Cut Type Prediction
+**Stage 2: Cut Type Prediction**
 
 Selects the precise cut within the identified family to ensure maximum yield and aesthetic quality.
 
@@ -195,14 +195,14 @@ Model: XGBoost Classifier
 
 Purpose: Provides logical consistency with cut family and improves exact cut prediction accuracy.
 
-Cut Parameter Prediction
+**Cut Parameter Prediction**
 Once the exact cut type is selected, the system predicts cut-specific geometric parameters to guide cutting operations:
 
 Table Percentage,Crown Angle,Pavilion Angle,Total Depth Percentage
 
 Separate regression models are trained for each cut family to improve parameter accuracy and minimize gemstone material loss.
 
-Final Output:
+**Final Output:**
 The system provides a data-driven cut recommendation including a suitable cut family, exact cut type selection, and adjusted geometric cut parameters to support efficient gemstone cutting.
 
 ---
@@ -214,6 +214,7 @@ The system provides a data-driven cut recommendation including a suitable cut fa
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
