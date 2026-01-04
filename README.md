@@ -35,7 +35,7 @@ The system performs four key functions:
 
 ### 1️⃣ Robotic Arm Design, Control & Execution
 #### **Overview**
-This component focuses on controlling the robotic arm for gemstone cutting. The system combines hardware assembly, ROS 2 simulation, and web-based configuration to enable precise and programmable arm movements.
+This component focuses on controlling the robotic arm for gemstone cutting. The system combines hardware assembly, ROS 2 simulation, and web-based configuration to enable precise and programmable arm movements. The system allows simulation and real-time control of the arm, translating commands from the web app into servo motor actions.
 
 
 > [!NOTE]
@@ -57,11 +57,15 @@ This component focuses on controlling the robotic arm for gemstone cutting. The 
 * **Framework:** ROS 2 Jazzy with Gazebo Harmonic for simulation  
 * **Interface:** Web app configuration to bridge hardware and simulation via ROS 2 bridge  
 * **Path Generation:** Creates precision cutting plans and movement trajectories based on stone analysis.
+
+#### **1.3 Execution & Planning Strategy**
+* **Movement Control:** Translates complex faceting coordinates into real-time servo pulses for high-precision cutting.
+* **Path Planning:** Generates optimized cutting plans to navigate the arm along calculated trajectories, ensuring minimal material waste.
   
-#### **1.3 Function**
+#### **1.4 Function**
 The robotic arm performs precise physical movements for cutting operations. The system allows simulation and real-time control of the arm, translating commands from the web app into servo motor actions.
 
-#### **1.4 Future Works**
+#### **1.5 Future Works**
 * Adaptive Cutting with AI Feedback:** Equip sensors (force, vibration, optical) to adjust cutting paths in real-time. Implement reinforcement learning for optimal strategies.
 * Multi-Arm Systems:** Expand to multi-arm setups for faster manufacturing and collaborative jewelry production.
 * Cloud Operation:** Develop a web dashboard for remote control, analytics, performance logs, and predictive maintenance.
@@ -156,6 +160,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
