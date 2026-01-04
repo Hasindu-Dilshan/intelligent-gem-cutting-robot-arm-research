@@ -33,7 +33,7 @@ The research integrates **machine learning, robotics, embedded systems, and 3D M
 ## 🔄 System Workflow
 The system performs four key functions:
 
-### 1️⃣ Robotic Arm Control
+### 1️⃣ Robotic Arm Design, Control & Execution
 #### **Overview**
 This component focuses on controlling the robotic arm for gemstone cutting. The system combines hardware assembly, ROS 2 simulation, and web-based configuration to enable precise and programmable arm movements.
 
@@ -56,7 +56,8 @@ This component focuses on controlling the robotic arm for gemstone cutting. The 
 * **Operating System:** Ubuntu 24.04  
 * **Framework:** ROS 2 Jazzy with Gazebo Harmonic for simulation  
 * **Interface:** Web app configuration to bridge hardware and simulation via ROS 2 bridge  
-
+* **Path Generation:** Creates precision cutting plans and movement trajectories based on stone analysis.
+  
 #### **1.3 Function**
 The robotic arm performs precise physical movements for cutting operations. The system allows simulation and real-time control of the arm, translating commands from the web app into servo motor actions.
 
@@ -155,6 +156,7 @@ The robotic arm executes the cutting process according to pre-calculated angles 
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 </div>
+
 
 
 
