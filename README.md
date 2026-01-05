@@ -160,7 +160,7 @@ The system estimates the gemstone value by combining detected defects, measured 
 
 ### 4. Cut Type Recommendation
 
-#### **4.1 Overview**
+#### * **4.1 Overview**
 This component recommends the most suitable gemstone cut type and predicts cutter-ready geometric parameters based on gemstone material properties and physical dimensions. The objective is to ensure cut feasibility while minimizing material wastage.
 
 > [!NOTE]
@@ -168,7 +168,7 @@ This component recommends the most suitable gemstone cut type and predicts cutte
 
 
 
-#### **4.2 Input Feature Processing**
+#### * **4.2 Input Feature Processing**
 The module processes structured data from previous stages to analyze shape suitability and differentiate cut families.
 
 | Source Module | Data Points Extracted |
@@ -182,26 +182,26 @@ The module processes structured data from previous stages to analyze shape suita
 #### **4.3 Cut Recommendation Models**
 The process is executed in two specialized stages to ensure logical consistency and maximum aesthetic yield.
 
-** Stage 1: Exact Cut Family Classification**
+* ** Stage 1: Exact Cut Family Classification**
 Determines the broad category (Brilliant, Step, Mixed, or Cabochon) based on properties and derived ratios.
 * **Model:** `CatBoost Classifier`
 * **Purpose:** Handles categorical gem types and non-linear relationships.
 
-** Stage 2: Cut Type Prediction**
+* ** Stage 2: Cut Type Prediction**
 Selects the precise cut within the identified family (e.g., Round, Oval, Pear, or Marquise).
 * **Model:** `XGBoost Classifier`
 * **Purpose:** Improves exact prediction accuracy and ensures geometric consistency.
 
 ---
 
-#### ** Cut Parameter Prediction**
+#### * ** Cut Parameter Prediction**
 Once the cut type is finalized, the system predicts specific geometric parameters to guide the **Robotic Arm Control** module:
 
 * **Crown & Pavilion:** Optimized angles for light refraction.
 * **Table & Depth:** Percentages calculated to minimize material loss.
 * **Architecture:** Separate regression models are trained for each cut family to improve precision.
 
-**Final Output:**
+* **Final Output:**
 The system provides a data-driven recommendation including **Cut Family**, **Exact Cut Selection**, and **Geometric Cut Parameters** for automated execution.
 
 ---
@@ -214,6 +214,7 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
 </div>
+
 
 
 
