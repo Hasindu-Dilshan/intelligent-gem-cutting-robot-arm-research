@@ -38,6 +38,10 @@ The research integrates **machine learning, robotics, embedded systems, and 3D M
 ## 🔄 System Workflow
 The system performs four key functions:
 
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF41&center=true&vCenter=true&width=435&lines=INITIALIZING+ROBOTIC+ARM...;SCANNING+GEMSTONE+GEOMETRY...;CALCULATING+OPTIMAL+CUT+PATH...;EXECUTING+PRECISION+FACETING...;SYSTEM+STATUS:+OPTIMAL" alt="Typing SVG" />
+</p>
+
 ### 1️⃣ Robotic Arm Design, Control & Execution
 #### **Overview**
 This component focuses on controlling the robotic arm for gemstone cutting. The system combines hardware assembly, ROS 2 simulation, and web-based configuration to enable precise and programmable arm movements. The system allows simulation and real-time control of the arm, translating commands from the web app into servo motor actions.
@@ -209,11 +213,8 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%" />
-</p>
-
 </div>
+
 
 
 
