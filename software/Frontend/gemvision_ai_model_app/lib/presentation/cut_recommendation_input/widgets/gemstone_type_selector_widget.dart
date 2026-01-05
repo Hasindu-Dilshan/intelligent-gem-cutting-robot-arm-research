@@ -56,7 +56,7 @@ class GemstoneTypeSelectorWidget extends StatelessWidget {
     ),
     GemstoneType(
       name: 'Emerald',
-      imageUrl: 'assets/images/analysis_history/emerald.jpg',
+      imageUrl: 'assets/images/analysis_history/Emarald.png',
       semanticLabel: 'Green emerald gemstone with vibrant forest green color',
       minRI: 1.577,
       maxRI: 1.583,
@@ -70,7 +70,7 @@ class GemstoneTypeSelectorWidget extends StatelessWidget {
     ),
     GemstoneType(
       name: 'Topaz',
-      imageUrl: 'assets/images/analysis_history/topaz.jpg',
+      imageUrl: 'assets/images/analysis_history/topaz.png',
       semanticLabel: 'Golden topaz gemstone with warm amber color',
       minRI: 1.609,
       maxRI: 1.643,
@@ -84,7 +84,7 @@ class GemstoneTypeSelectorWidget extends StatelessWidget {
     ),
     GemstoneType(
       name: 'Garnet',
-      imageUrl: 'assets/images/analysis_history/garnet.jpg',
+      imageUrl: 'assets/images/analysis_history/garnet.png',
       semanticLabel: 'Dark red garnet gemstone with burgundy color',
       minRI: 1.714,
       maxRI: 1.888,
@@ -98,7 +98,7 @@ class GemstoneTypeSelectorWidget extends StatelessWidget {
     ),
     GemstoneType(
       name: 'Opal',
-      imageUrl: 'assets/images/analysis_history/opal.jpg',
+      imageUrl: 'assets/images/analysis_history/opal.png',
       semanticLabel:
           'Multicolored opal gemstone with iridescent play of colors',
       minRI: 1.450,

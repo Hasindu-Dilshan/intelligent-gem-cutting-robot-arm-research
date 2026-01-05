@@ -32,8 +32,7 @@ class _HomeDashboardState extends State<HomeDashboard>
       "gemName": "Blue Sapphire",
       "confidence": 94.5,
       "date": "2025-12-27",
-      "image":
-          "assets/images/BlueSapphire.jpg",
+      "image": "assets/images/BlueSapphire.jpg",
       "semanticLabel":
           "Deep blue sapphire gemstone with brilliant cut facets reflecting light against dark background",
       "classification": "Genuine Gemstone",
@@ -43,8 +42,7 @@ class _HomeDashboardState extends State<HomeDashboard>
       "gemName": "Emerald",
       "confidence": 89.2,
       "date": "2025-12-26",
-      "image":
-          "assets/images/cut_recommendation_result/Emerald.png",
+      "image": "assets/images/cut_recommendation_results/Emerald.png",
       "semanticLabel":
           "Rich green emerald gemstone with rectangular cut displaying natural inclusions",
       "classification": "Genuine Gemstone",
@@ -54,8 +52,7 @@ class _HomeDashboardState extends State<HomeDashboard>
       "gemName": "Ruby",
       "confidence": 91.8,
       "date": "2025-12-25",
-      "image":
-          "assets/images/analysis_history/ruby-polished.jpg",
+      "image": "assets/images/analysis_history/ruby-polished.jpg",
       "semanticLabel":
           "Vibrant red ruby gemstone with oval cut showing deep crimson color",
       "classification": "Genuine Gemstone",
