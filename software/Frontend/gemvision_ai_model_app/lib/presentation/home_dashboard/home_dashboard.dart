@@ -1,3 +1,6 @@
+
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sizer/sizer.dart';
@@ -32,8 +35,10 @@ class _HomeDashboardState extends State<HomeDashboard>
       "gemName": "Blue Sapphire",
       "confidence": 94.5,
       "date": "2025-12-27",
+
       "image":
           "assets/images/BlueSapphire.jpg",
+
       "semanticLabel":
           "Deep blue sapphire gemstone with brilliant cut facets reflecting light against dark background",
       "classification": "Genuine Gemstone",
@@ -353,7 +358,9 @@ class _HomeDashboardState extends State<HomeDashboard>
             ),
             SizedBox(height: 3.h),
 
-            // Action Cards
+
+            // Top Row: Two Cards
+
             Row(
               children: [
                 Expanded(
@@ -387,6 +394,27 @@ class _HomeDashboardState extends State<HomeDashboard>
                 ),
               ],
             ),
+
+
+            SizedBox(height: 3.h),
+
+            // Full Width: Gem Valuation Card (Professional & Prominent)
+            ActionCardWidget(
+              title: 'Gem\nValuation',
+              iconName: 'attach_money',
+              gradientColors: [
+                theme.colorScheme.tertiary,
+                theme.colorScheme.tertiaryContainer,
+              ],
+              onTap: () {
+                HapticFeedback.lightImpact();
+                Navigator.pushNamed(
+                  context,
+                  '/gem-valuation-input',
+                );
+              },
+            ),
+
             SizedBox(height: 4.h),
 
             // Quick Stats
@@ -499,4 +527,6 @@ class _HomeDashboardState extends State<HomeDashboard>
       ),
     );
   }
+
 }
+
