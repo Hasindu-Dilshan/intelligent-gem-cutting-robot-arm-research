@@ -127,7 +127,7 @@ Captured images are preprocessed to improve quality. Techniques such as noise re
 * A visual defect map is generated and visualized.
 
 
-* **Technical Detail:** The model is trained to identify five different types of gemstone defects using approximately **10,000 labeled images per defect category**.
+* **Technical Detail:** The model is trained to identify five different types of gemstone defects using approximately **10 labeled images per defect category**.
 * **Tools & Technologies:** `OpenCV`, `NumPy`, `TensorFlow / PyTorch`, `Python`.
 
 #### **3.3 Weight Measurement**
@@ -214,6 +214,7 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
 </div>
+
 
 
 
