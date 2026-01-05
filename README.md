@@ -162,7 +162,7 @@ The system estimates the gemstone value by combining detected defects, measured 
   <img src="https://capsule-render.vercel.app/render?type=venom&color=00FF41&height=65&section=header&text=ANALYZING%20CUT%20GEOMETRY...&fontSize=20&animation=twinkling" />
 </p>
 
-### 4️⃣ Cut Type Recommendation
+### 4. Cut Type Recommendation
 
 #### 4.1 Overview
 This component recommends the most suitable gemstone cut type and predicts cutter-ready geometric parameters based on gemstone material properties and physical dimensions. The objective is to ensure cut feasibility while minimizing material wastage.
@@ -229,6 +229,7 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
 </div>
+
 
 
 
