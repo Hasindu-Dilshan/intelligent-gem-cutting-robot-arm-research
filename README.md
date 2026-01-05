@@ -16,7 +16,7 @@
 
 ---
 
-## 📝 Project Overview
+##  Project Overview
 This project aims to develop an intelligent robotic arm that automates the gemstone cutting process through robotics and artificial intelligence. Traditional gem cutting in Sri Lanka is labor-intensive, requires high skill, and often results in inconsistency.
 
 The proposed system introduces a **semi-autonomous robotic solution** capable of identifying, evaluating, and cutting gemstones with precision and minimal human intervention. 
@@ -25,7 +25,7 @@ The research integrates **machine learning, robotics, embedded systems, and 3D M
 
 ---
 
-## 📐 Architectural Diagram
+##  Architectural Diagram
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nihara-D/intelligent-gem-cutting-robot-arm-research/main/System%20Architecture.png" alt="System Architecture" width="900">
@@ -35,14 +35,14 @@ The research integrates **machine learning, robotics, embedded systems, and 3D M
 
 ---
 
-## 🔄 System Workflow
+##  System Workflow
 The system performs four key functions:
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF41&center=true&vCenter=true&width=435&lines=INITIALIZING+ROBOTIC+ARM...;SCANNING+GEMSTONE+GEOMETRY...;CALCULATING+OPTIMAL+CUT+PATH...;EXECUTING+PRECISION+FACETING...;SYSTEM+STATUS:+OPTIMAL" alt="Typing SVG" />
 </p>
 
-### 1️⃣ Robotic Arm Design, Control & Execution
+### 1. Robotic Arm Design, Control & Execution
 #### **Overview**
 This component focuses on controlling the robotic arm for gemstone cutting. The system combines hardware assembly, ROS 2 simulation, and web-based configuration to enable precise and programmable arm movements. The system allows simulation and real-time control of the arm, translating commands from the web app into servo motor actions.
 
@@ -81,7 +81,7 @@ The robotic arm performs precise physical movements for cutting operations. The 
 
 ---
 
-### 2️⃣ Gem Identification
+### 2. Gem Identification
 #### **2.1 Overview**
 This component implements a machine learning–based gemstone identification and authenticity classification system tailored for Sri Lankan gemstones. This component implements a data-driven gemstone identification and authenticity assessment system designed with a focus on Sri Lankan gemstones. It serves as a decision-support and pre-screening module, assisting users in distinguishing natural, synthetic, imitation, and treated stones using measurable gemological properties.
 
@@ -108,7 +108,7 @@ The model is trained using a synthetically generated dataset containing 3,000+ r
 
 ---
 
-### 3️⃣ Gem Evaluation
+### 3. Gem Evaluation
 
 #### **3.1 Overview**
 
@@ -158,7 +158,7 @@ The system estimates the gemstone value by combining detected defects, measured 
 
 ---
 
-### 4️⃣ Cut Type Recommendation
+### 4. Cut Type Recommendation
 
 #### **4.1 Overview**
 This component recommends the most suitable gemstone cut type and predicts cutter-ready geometric parameters based on gemstone material properties and physical dimensions. The objective is to ensure cut feasibility while minimizing material wastage.
@@ -182,19 +182,19 @@ The module processes structured data from previous stages to analyze shape suita
 #### **4.3 Cut Recommendation Models**
 The process is executed in two specialized stages to ensure logical consistency and maximum aesthetic yield.
 
-**🔹 Stage 1: Exact Cut Family Classification**
+** Stage 1: Exact Cut Family Classification**
 Determines the broad category (Brilliant, Step, Mixed, or Cabochon) based on properties and derived ratios.
 * **Model:** `CatBoost Classifier`
 * **Purpose:** Handles categorical gem types and non-linear relationships.
 
-**🔹 Stage 2: Cut Type Prediction**
+** Stage 2: Cut Type Prediction**
 Selects the precise cut within the identified family (e.g., Round, Oval, Pear, or Marquise).
 * **Model:** `XGBoost Classifier`
 * **Purpose:** Improves exact prediction accuracy and ensures geometric consistency.
 
 ---
 
-#### **📐 Cut Parameter Prediction**
+#### ** Cut Parameter Prediction**
 Once the cut type is finalized, the system predicts specific geometric parameters to guide the **Robotic Arm Control** module:
 
 * **Crown & Pavilion:** Optimized angles for light refraction.
@@ -208,12 +208,13 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 
 <div align="center">
 
-### 🛠️ Technical Stack
+###  Technical Stack
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
 </div>
+
 
 
 
