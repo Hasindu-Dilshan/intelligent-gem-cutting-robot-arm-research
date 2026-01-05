@@ -209,7 +209,12 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 
 <sub>© 2024-2026 | SLIIT AIMS Research Group</sub>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%" />
+</p>
+
 </div>
+
 
 
 
