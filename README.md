@@ -213,11 +213,8 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nihara-D&bg_color=000000&color=00FF41&line=00FF41&point=FFFFFF&area=true&hide_border=true" width="100%" />
-</p>
-
 </div>
+
 
 
 
