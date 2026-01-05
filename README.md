@@ -214,10 +214,11 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=000000&height=100&section=header&text=PROCESSING%20GEMSTONE%20DATA&fontSize=30&animation=fadeIn&fontColor=00FF41" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nihara-D&bg_color=000000&color=00FF41&line=00FF41&point=FFFFFF&area=true&hide_border=true" width="100%" />
 </p>
 
 </div>
+
 
 
 
