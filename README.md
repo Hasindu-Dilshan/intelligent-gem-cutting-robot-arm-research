@@ -27,6 +27,11 @@ The research integrates **machine learning, robotics, embedded systems, and 3D M
 
 ## 📐 Architectural Diagram
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nihara-D/intelligent-gem-cutting-robot-arm-research/main/System%20Architecture.png" alt="System Architecture" width="900">
+  <br>
+  <em>Figure 1: High-level System Architecture showing the integration of ML Modules and Robotic Control</em>
+</div>
 
 ---
 
@@ -205,6 +210,7 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 <sub>© 2024-2026 | SLIIT AIMS Research Group</sub>
 
 </div>
+
 
 
 
