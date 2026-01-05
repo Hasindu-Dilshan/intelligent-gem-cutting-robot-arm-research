@@ -152,71 +152,60 @@ The system estimates the gemstone value by combining detected defects, measured 
 ### 4️⃣ Cut Type Recommendation
 
 #### **4.1 Overview**
-
 This component recommends the most suitable gemstone cut type and predicts cutter-ready geometric parameters based on gemstone material properties and physical dimensions. The objective is to ensure cut feasibility while minimizing material wastage.
 
 > [!NOTE]
->This component is developed for academic purposes to demonstrate data-driven cut planning. The emphasis is on methodological design rather than industrial-grade cutting optimization.
+> This component is developed for academic purposes to demonstrate data-driven cut planning. The emphasis is on methodological design rather than industrial-grade cutting optimization.
+
+
 
 #### **4.2 Input Feature Processing**
+The module processes structured data from previous stages to analyze shape suitability and differentiate cut families.
 
-The Cut Type Recommendation module receives structured inputs from previous modules:
-
-From Gem Identification: Gem Type, Refractive Index (RI)
-From Gem Evaluation: Carat Weight , Length (mm), Width (mm), Height (mm)
-
-Derived Parameters:
-
-*Aspect Ratio – calculated as Length divided by Width, used to analyze shape suitability.
-
-*Depth Ratio – calculated as Height divided by Width, used to differentiate cut families.
-
-These features are used to recommend the most suitable cut type and suggest initial cutting parameters.
-
-#### **4.3 Cut Recommendation Models**
-
-The cut recommendation process is divided into two stages, supported by derived parameters from gemstone dimensions and properties:
-
-**Stage 1: Exact Cut Family Classification**
-
-Determines the broad category of cut based on gemstone properties and derived features such as aspect ratio, depth ratio, and estimated volume.
-
-Supported Cut Families: Brilliant, Step, Mixed, Cabochon
-
-Model: CatBoost Classifier
-
-Purpose: Handles categorical gemstone types and non-linear relationships to select a suitable cut family.
-
-**Stage 2: Cut Type Prediction**
-
-Selects the precise cut within the identified family to ensure maximum yield and aesthetic quality.
-
-Examples:
-Brilliant: Round, Oval, Pear, Marquise
-Model: XGBoost Classifier
-
-Purpose: Provides logical consistency with cut family and improves exact cut prediction accuracy.
-
-**Cut Parameter Prediction**
-
-Once the exact cut type is selected, the system predicts cut-specific geometric parameters to guide cutting operations:
-
-Table Percentage,Crown Angle,Pavilion Angle,Total Depth Percentage
-
-Separate regression models are trained for each cut family to improve parameter accuracy and minimize gemstone material loss.
-
-**Final Output:**
-The system provides a data-driven cut recommendation including a suitable cut family, exact cut type selection, and adjusted geometric cut parameters to support efficient gemstone cutting.
+| Source Module | Data Points Extracted |
+| :--- | :--- |
+| **Gem Identification** | Gem Type, Refractive Index (RI) |
+| **Gem Evaluation** | Carat Weight, Length (mm), Width (mm), Height (mm) |
+| **Derived Analytics** | **Aspect Ratio** (L/W) & **Depth Ratio** (H/W) |
 
 ---
 
+#### **4.3 Cut Recommendation Models**
+The process is executed in two specialized stages to ensure logical consistency and maximum aesthetic yield.
+
+**🔹 Stage 1: Exact Cut Family Classification**
+Determines the broad category (Brilliant, Step, Mixed, or Cabochon) based on properties and derived ratios.
+* **Model:** `CatBoost Classifier`
+* **Purpose:** Handles categorical gem types and non-linear relationships.
+
+**🔹 Stage 2: Cut Type Prediction**
+Selects the precise cut within the identified family (e.g., Round, Oval, Pear, or Marquise).
+* **Model:** `XGBoost Classifier`
+* **Purpose:** Improves exact prediction accuracy and ensures geometric consistency.
+
+---
+
+#### **📐 Cut Parameter Prediction**
+Once the cut type is finalized, the system predicts specific geometric parameters to guide the **Robotic Arm Control** module:
+
+* **Crown & Pavilion:** Optimized angles for light refraction.
+* **Table & Depth:** Percentages calculated to minimize material loss.
+* **Architecture:** Separate regression models are trained for each cut family to improve precision.
+
+**Final Output:**
+The system provides a data-driven recommendation including **Cut Family**, **Exact Cut Selection**, and **Geometric Cut Parameters** for automated execution.
+
+---
 
 <div align="center">
 
 ### 🛠️ Technical Stack
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
+<sub>© 2024-2026 | SLIIT AIMS Research Group</sub>
+
 </div>
+
 
 
 
