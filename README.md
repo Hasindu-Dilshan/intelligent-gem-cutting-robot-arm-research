@@ -213,7 +213,14 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 
 <sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
+<div align="center">
+  
+**SYSTEM PATH CALCULATION**
+`██████████████▒░░░░░░░░░░░░░`
 </div>
+
+</div>
+
 
 
 
