@@ -75,9 +75,9 @@ This component focuses on controlling the robotic arm for gemstone cutting. The 
 The robotic arm performs precise physical movements for cutting operations. The system allows simulation and real-time control of the arm, translating commands from the web app into servo motor actions.
 
 #### **1.5 Future Works**
-* Adaptive Cutting with AI Feedback:** Equip sensors (force, vibration, optical) to adjust cutting paths in real-time. Implement reinforcement learning for optimal strategies.
-* Multi-Arm Systems:** Expand to multi-arm setups for faster manufacturing and collaborative jewelry production.
-* Cloud Operation:** Develop a web dashboard for remote control, analytics, performance logs, and predictive maintenance.
+* Adaptive Cutting with AI Feedback: Equip sensors (force, vibration, optical) to adjust cutting paths in real-time. Implement reinforcement learning for optimal strategies.
+* Multi-Arm Systems: Expand to multi-arm setups for faster manufacturing and collaborative jewelry production.
+* Cloud Operation: Develop a web dashboard for remote control, analytics, performance logs, and predictive maintenance.
 
 ---
 
@@ -218,6 +218,7 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 <sub>© 2024-2026 | SLIIT AIMS Research Group</sub>
 
 </div>
+
 
 
 
