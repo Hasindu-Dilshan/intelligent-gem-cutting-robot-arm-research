@@ -219,16 +219,7 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 
 </div>
 
----
 
-<div align="center">
-
-###  Technical Stack
-<img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
-
-<sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
-
-</div>
 
 
 
