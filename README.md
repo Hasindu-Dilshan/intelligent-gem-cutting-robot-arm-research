@@ -207,13 +207,14 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 ### 🛠️ Technical Stack
 <img src="https://skillicons.dev/icons?i=ros,raspberrypi,linux,python,cpp,ubuntu,pytorch,tensorflow,opencv" />
 
-<sub>© 2024-2026 | SLIIT AIMS Research Group</sub>
+<sub>© 2025-2026 | SLIIT AIMS Research Group</sub>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%" />
 </p>
 
 </div>
+
 
 
 
